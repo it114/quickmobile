@@ -18,7 +18,7 @@ class UserApi extends Api{
     protected function _init(){
         $this->model = new UcenterMemberModel();
     }
-
+	
     /**
      * 注册一个新用户
      * @param  string $username 用户名
@@ -30,7 +30,7 @@ class UserApi extends Api{
     public function register($username, $password, $email, $mobile = ''){
         return $this->model->register($username, $password, $email, $mobile);
     }
-
+	
     /**
      * 用户登录认证
      * @param  string  $username 用户名

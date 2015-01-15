@@ -46,7 +46,6 @@ class UserController extends HomeController {
 			} else { //注册失败，显示错误信息
 				$this->error($this->showRegError($uid));
 			}
-
 		} else { //显示注册表单
 			$this->display();
 		}
