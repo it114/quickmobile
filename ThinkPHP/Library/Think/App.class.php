@@ -49,7 +49,7 @@ class App {
      * @access public
      * @return void
      */
-    static public function exec() {
+    static public function exec() { 
     
         if(!preg_match('/^[A-Za-z](\/|\w)*$/',CONTROLLER_NAME)){ // 安全检测
             $module  =  false;
@@ -74,7 +74,7 @@ class App {
             $module  =  new $class;
             // 操作绑定到类后 固定执行run入口
             $action  =  'run';
-        }else{
+        }else{ 
             //创建控制器实例
             $module  =  A(CONTROLLER_NAME);                
         }
@@ -87,11 +87,11 @@ class App {
 
             // 是否定义Empty控制器
             $module = A('Empty');
-            if(!$module){
+            if(!$module){ 
                 E(L('_CONTROLLER_NOT_EXIST_').':'.CONTROLLER_NAME);
             }
         }
-
+       
         // 获取当前操作名 支持动态路由
         if(!isset($action)){
             $action    =   ACTION_NAME.C('ACTION_SUFFIX');  

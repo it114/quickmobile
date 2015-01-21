@@ -455,7 +455,7 @@ function D($name='',$layer='') {
     $class          =   parse_res_name($name,$layer);
     if(class_exists($class)) {
         $model      =   new $class(basename($name));
-    }elseif(false === strpos($name,'/')){
+    }elseif(false === strpos($name,'/')){ 
         // 自动加载公共模块下面的模型
         $class      =   '\\Common\\'.$layer.'\\'.$name.$layer;
         $model      =   class_exists($class)? new $class($name) : new Think\Model($name);
@@ -535,7 +535,7 @@ function A($name,$layer='',$level='') {
         $action             =   new $class();
         $_action[$name.$layer]     =   $action;
         return $action;
-    }else {
+    }else { 
         return false;
     }
 }

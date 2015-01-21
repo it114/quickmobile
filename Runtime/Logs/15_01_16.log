@@ -1,0 +1,912 @@
+[ 2015-01-16T00:10:14+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/user/login
+ERR: 无法加载控制器:User
+
+[ 2015-01-16T00:10:22+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile
+ERR: 无法加载控制器:Index
+
+[ 2015-01-16T00:10:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile
+ERR: 无法加载控制器:Index
+
+[ 2015-01-16T00:11:45+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:13:10+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:13:51+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:14:57+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:14:57+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:15:59+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:16:23+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:25:09+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:26:13+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:32:23+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:32:23+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:33:46+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:33:46+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:36:27+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:39:57+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/addon/login
+ERR: 无法加载控制器:Addon
+
+[ 2015-01-16T00:40:03+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:43:35+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:43:51+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:43:52+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:43:52+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:14+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:36+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:36+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:36+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:37+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:37+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:37+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:37+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:37+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:47:38+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:48:09+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:31+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:31+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:31+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:32+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:32+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:32+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:51:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:53:41+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:10+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:10+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:10+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:11+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:29+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:29+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:29+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:29+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:29+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T00:55:30+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+ERR: 无法加载控制器:Public
+
+[ 2015-01-16T01:03:54+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=111111&password111112
+ERR: Think\Controller:apiError方法不存在！
+
+[ 2015-01-16T01:04:34+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=111111&password111112
+ERR: Think\Controller:apiError方法不存在！
+
+[ 2015-01-16T01:33:02+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.116007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.119007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:33:03+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:33:04+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-16T01:33:04+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:33:04+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:33:30+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.145008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:34:25+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.153009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.154009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:34:26+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.055003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.056003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:34:26+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-01-16T01:34:44+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '��r8o��Q<�g�V' ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:35:18+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.013001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '��r8o��Q<�g�V' ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:35:18+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.116006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '��r8o��Q<�g�V' ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:36:28+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-16T01:36:50+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:37:06+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '��r8o��Q<�g�V' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:37:06+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '��r8o��Q<�g�V' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:37:18+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-01-16T01:37:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-16T01:37:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:37:20+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:37:27+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '��r8o��Q<�g�V' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:38:32+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+
+[ 2015-01-16T01:38:45+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.008001s ]
+
+[ 2015-01-16T01:39:21+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '15133626736' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `email` = '15133626736@quickmobile.com.cn' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133626736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `onethink_ucenter_member` (`username`,`password`,`email`,`mobile`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('15133626736','e6f8bc413c2a2defbc88823e83b26d94','15133626736@quickmobile.com.cn','15133626736',1421343560,'2130706433',1421343560,1) [ RunTime:0.296017s ]
+
+[ 2015-01-16T01:39:21+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '15133626736' ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `email` = '15133626736@quickmobile.com.cn' ) LIMIT 1   [ RunTime:0.075004s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133626736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `onethink_ucenter_member` (`username`,`password`,`email`,`mobile`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('15133626736','e6f8bc413c2a2defbc88823e83b26d94','15133626736@quickmobile.com.cn','15133626736',1421343560,'2130706433',1421343560,1) [ RunTime:0.420025s ]
+ERR: 1062:Duplicata du champ '15133626736' pour la clef 'username'
+ [ SQL语句 ] : INSERT INTO `onethink_ucenter_member` (`username`,`password`,`email`,`mobile`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('15133626736','e6f8bc413c2a2defbc88823e83b26d94','15133626736@quickmobile.com.cn','15133626736',1421343560,'2130706433',1421343560,1)
+
+[ 2015-01-16T01:39:42+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.080005s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '15133626736' ) LIMIT 1   [ RunTime:0.036002s ]
+
+[ 2015-01-16T01:39:42+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '15133626736' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2015-01-16T01:39:59+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '15133628736' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `email` = '15133628736@quickmobile.com.cn' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `onethink_ucenter_member` (`username`,`password`,`email`,`mobile`,`reg_time`,`reg_ip`,`update_time`,`status`) VALUES ('15133628736','e6f8bc413c2a2defbc88823e83b26d94','15133628736@quickmobile.com.cn','15133628736',1421343599,'2130706433',1421343599,1) [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:41:39+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421343699,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.131008s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:42:41+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.015001s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421343761,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.009000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:42:41+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421343761,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.011001s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:42:50+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:42:57+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.008000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421343776,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.008000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:43:01+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=1311111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:43:31+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=1311111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:43:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=1311111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:43:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=1311111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:43:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=1311111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:43:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=1311111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T01:43:40+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421343820,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.009000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:43:56+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234569
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001001s ]
+
+[ 2015-01-16T01:46:25+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234569
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:46:30+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421343989,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.008000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:47:09+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344028,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007001s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:47:10+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.008001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344029,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.013001s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:47:10+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344030,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.008001s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:47:10+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344030,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007001s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:48:13+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.039002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344092,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.008000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:50:02+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.011001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344202,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:50:04+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.044002s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344204,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.013001s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:50:04+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344204,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:50:12+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.009000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344212,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.008000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:50:45+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.032001s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344245,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007000s ]
+ERR: Think\Model:login方法不存在！
+
+[ 2015-01-16T01:51:34+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.008000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344294,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.006000s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `onethink_member` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`username`,`email`,`mobile`,`status` FROM `onethink_ucenter_member` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `onethink_member` (`nickname`,`status`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`uid`) VALUES ('15133628736',1,0,'2130706433',1421344294,0,0,3) [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.109006s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007000s ]
+SQL: SELECT `nickname` FROM `onethink_member` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.030002s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,3,2130706433,'member',3,1421344294,'15133628736在2015-01-16 01:51登录了后台') [ RunTime:0.001000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 3 ) AND ( `create_time` > 1421257894 ) LIMIT 1   [ RunTime:0.034002s ]
+SQL: UPDATE `onethink_member` SET `score`=score+10 WHERE ( uid=3 AND status>-1 ) [ RunTime:0.011001s ]
+
+[ 2015-01-16T01:52:45+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `username` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:53:09+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344389,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.010000s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `onethink_member` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.006000s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,3,2130706433,'member',3,1421344389,'15133628736在2015-01-16 01:53登录了后台') [ RunTime:0.000000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 3 ) AND ( `create_time` > 1421257989 ) LIMIT 1   [ RunTime:0.030002s ]
+
+[ 2015-01-16T01:53:37+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344416,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.006000s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `onethink_member` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.007000s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,3,2130706433,'member',3,1421344416,'15133628736在2015-01-16 01:53登录了后台') [ RunTime:0.001000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 3 ) AND ( `create_time` > 1421258016 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:53:37+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344417,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007001s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `onethink_member` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.024001s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,3,2130706433,'member',3,1421344417,'15133628736在2015-01-16 01:53登录了后台') [ RunTime:0.001000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 3 ) AND ( `create_time` > 1421258017 ) LIMIT 1   [ RunTime:0.002001s ]
+
+[ 2015-01-16T01:53:40+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=123456
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `onethink_ucenter_member` SET `last_login_time`=1421344420,`last_login_ip`='2130706433' WHERE ( `id` = 3 ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_member` [ RunTime:0.007001s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `onethink_member` WHERE ( `uid` = 3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.007000s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,3,2130706433,'member',3,1421344420,'15133628736在2015-01-16 01:53登录了后台') [ RunTime:0.004000s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.009000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `onethink_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 3 ) AND ( `create_time` > 1421258020 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T01:54:19+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/login&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `onethink_ucenter_member` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `onethink_ucenter_member` WHERE ( `mobile` = '15133628736' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-16T23:00:28+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.103006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.176010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-16T23:00:50+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os=Android&os_version=5.0.1&api_version=1&t=1421420067191&uuid=ffffffff-b506-a266-3c9d-fbe61a061445&token=493647af247ba8e9223893d96d655de
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T23:01:19+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os=Android&os_version=5.0.1&api_version=1&t=1421420067191&uuid=ffffffff-b506-a266-3c9d-fbe61a061445&token=493647af247ba8e9223893d96d655de
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T23:02:40+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os=Android&os_version=5.0.1&api_version=1&t=1421420067191&uuid=ffffffff-b506-a266-3c9d-fbe61a061445&token=493647af247ba8e9223893d96d655de
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-16T23:09:40+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/public/register&os=Android&os_version=5.0.1&api_version=1&t=1421420067191&uuid=ffffffff-b506-a266-3c9d-fbe61a061445&token=493647af247ba8e9223893d96d655de
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+

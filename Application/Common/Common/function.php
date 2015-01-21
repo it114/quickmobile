@@ -950,3 +950,51 @@ function get_stemma($pids,Model &$model, $field='id'){
     }
     return $collection;
 }
+
+
+function get_location($jin_du,$wei_du,$loc_info){
+	if(!$jin_du) $jin_du = '0';
+	if(!$wei_du) $wei_du = '0';
+// 	if(!$sheng)  $sheng  = '';
+// 	if(!shi)     $shi    = '';
+// 	if(!$xian)   $xian   = '';
+	if(!$loc_info) $loc_info = '';
+	return "($jin_du,$wei_du)=($loc_info)";
+}
+
+/**
+ * 
+ * @param unknown_type $files_name ，允许的文件名
+ * @param unknown_type $dir_prefix,文件夹前缀，相对于Public文件夹而言
+ * @param unknown_type $allow_exts,允许的文件扩展名
+ * @return multitype:number string |multitype:number NULL |multitype:number string NULL
+ */
+function upload_file($files_name,$dir_prefix='Uploads/',$allow_exts= array('jpg', 'gif', 'png', 'jpeg')) {
+	$ret = array('code'=>0,'msg'=>'上传图片缺少');;
+	foreach ($_FILES as $key=>$file){
+		if(!empty($file['name'])&&in_array($file['name'], $files_name)) {
+			return $ret;
+		}
+	}
+	import('ORG.Net.UploadFile');
+	$upload = new UploadFile();// 实例化上传类
+	$upload->autoSub = true;
+	$upload->subType   =  'date';
+	$upload->maxSize  = 3145728 ;// 设置附件上传大小
+	$upload->allowExts  =  $allow_exts;// 设置附件上传类型
+	$upload->savePath =  './Public/'.$dir_prefix;// 设置附件上传目录
+	$ret = array('code');
+	foreach ($_FILES as $key=>$file){
+		$info =  $upload->uploadOne($file);
+		if($info){// 保存附件信息
+			$ret['data'][$file] = $info;
+			$ret['code'] = 1;
+			$ret['msg'] = 'suc';
+		}else{ // 上传错误
+			$ret['code'] = 0;
+			$ret['msg'] = $upload->getErrorMsg();
+			break;
+		}
+	}
+	return $ret;
+}

@@ -12,10 +12,10 @@ namespace Common\Api;
  */
 class BaseApi {
 	/**
-	 * code = 0函数操作成功；code = 1函数操作失败！
+	 * code = 1函数操作成功；code = 0函数操作失败！
 	 * @var unknown_type
 	 */
-	protected $call_return = array('code'=>0,'msg'=>'error','data'=>array());
+	protected $call_return = array('code'=>0,'msg'=>'操作失败','data'=>array());
 	
 	
 	

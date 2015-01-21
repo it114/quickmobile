@@ -1,0 +1,260 @@
+[ 2015-01-21T23:24:47+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/seed&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.010001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.010001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+
+[ 2015-01-21T23:25:46+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/seed&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-21T23:27:09+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-21T23:27:28+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-21T23:27:38+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-21T23:27:38+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-01-21T23:27:39+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-21T23:29:08+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-01-21T23:29:15+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-01-21T23:29:15+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-01-21T23:29:56+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.015600s ]
+
+[ 2015-01-21T23:30:48+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.032002s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.010001s ]
+
+[ 2015-01-21T23:33:02+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.046800s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.015600s ]
+
+[ 2015-01-21T23:33:03+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.015600s ]
+
+[ 2015-01-21T23:33:54+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.000000s ]
+
+[ 2015-01-21T23:35:26+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.000000s ]
+
+[ 2015-01-21T23:35:26+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.015600s ]
+
+[ 2015-01-21T23:36:00+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.009000s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1   [ RunTime:0.040003s ]
+ERR: 1054:Champ '23cbd31b42ccd246ef0feef22789b22c' inconnu dans where clause
+ [ SQL语句 ] : SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1  
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`create_time`,`status`) VALUES (1,'测试feed','origin','','127.0.0.1',1421854560,1) [ RunTime:0.277016s ]
+
+[ 2015-01-21T23:37:45+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.009001s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Champ '23cbd31b42ccd246ef0feef22789b22c' inconnu dans where clause
+ [ SQL语句 ] : SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1  
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (1,'测试feed','origin','','127.0.0.1','23cbd31b42ccd246ef0feef22789b22c','(98,109)=(北京市海淀区中关村科技园)',1421854665,1) [ RunTime:0.113200s ]
+
+[ 2015-01-21T23:38:17+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.087005s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.016001s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Champ '23cbd31b42ccd246ef0feef22789b22c' inconnu dans where clause
+ [ SQL语句 ] : SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1  
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (1,'测试feed','origin','','127.0.0.1','23cbd31b42ccd246ef0feef22789b22c','(98,109)=(北京市海淀区中关村科技园)',1421854697,1) [ RunTime:0.060003s ]
+
+[ 2015-01-21T23:38:17+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.025002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027002s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.008000s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1054:Champ '23cbd31b42ccd246ef0feef22789b22c' inconnu dans where clause
+ [ SQL语句 ] : SELECT `md5` FROM `funtu_feed` WHERE ( md5=23cbd31b42ccd246ef0feef22789b22c ) LIMIT 1  
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (1,'测试feed','origin','','127.0.0.1','23cbd31b42ccd246ef0feef22789b22c','(98,109)=(北京市海淀区中关村科技园)',1421854697,1) [ RunTime:0.087005s ]
+
+[ 2015-01-21T23:39:05+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.012001s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( `md5` = '23cbd31b42ccd246ef0feef22789b22c' ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-01-21T23:40:44+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined variable: feed_model D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php 第 11 行.
+
+[ 2015-01-21T23:40:44+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.012001s ]
+NOTIC: [8] Undefined variable: feed_model D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php 第 11 行.
+
+[ 2015-01-21T23:41:39+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.011001s ]
+NOTIC: [8] Undefined variable: feed_model D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php 第 11 行.
+
+[ 2015-01-21T23:41:58+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.015600s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( `md5` = '23cbd31b42ccd246ef0feef22789b22c' ) LIMIT 1   [ RunTime:0.000000s ]
+

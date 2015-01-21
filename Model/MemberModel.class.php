@@ -18,7 +18,7 @@ use User\Api\UserApi;
  * 系统会员模型，这里来自于同步Home模块，未来Home模块中的该类可以不要。
  * 
  */
-class MemberModel extends Model {
+class MemberModel extends Model{
 
     /* 用户模型自动完成 */
     protected $_auto = array(
@@ -46,7 +46,7 @@ class MemberModel extends Model {
             $user = $this->create(array('nickname' => $info[1], 'status' => 1));
             $user['uid'] = $uid;
             if(!$this->add($user)){
-                $this->error = '用户信息注册失败，请重试！';
+                $this->error = '前台用户信息注册失败，请重试！';
                 return false;
             }
         } elseif(1 != $user['status']) {
@@ -56,20 +56,6 @@ class MemberModel extends Model {
         //记录行为
         action_log('user_login', 'member', $uid, $uid);
         return $user;//这里返回用户信息给调用者
-    }
-    
-    public function info($uid = -1,$field = array('id','nickname','uid','birthday','sex','avatar','qq','score')){
-    	$uid = intval($uid);
-    	if($uid!==-1 && 0< $uid) {
-    		$user = $this->field($field)->find($uid);
-    		if($user) {
-    			return $user;
-    		}
-    		$this->error = '查询用户信息失败：'.$this->error; 
-    	} else {
-    		$this->error = '用户id参数错误';
-    		return false;
-    	}
     }
 
 }

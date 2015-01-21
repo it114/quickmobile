@@ -7,15 +7,15 @@
 // | Author: andy<xinyun678@gmail.com>
 // +----------------------------------------------------------------------
 namespace Member\Api;
-use Common\Api\BaseApi;
+ 
 use User\Api\UserApi;
+use Member\Model\MemberModel;
 
 /**
  * 本系统所有用户相关操作都走这里
  * @author andy
- *
  */
-class UserApi extends BaseApi {
+class MemberApi extends \Common\Api\BaseApi {
 	
 	/**
 	 * 手机号码注册-注册到用户中心
@@ -25,17 +25,19 @@ class UserApi extends BaseApi {
 	public function register_with_phone_password($phone = '', $password = ''){
 		if(IS_POST){
 			$User = new UserApi;
-			$username = md5($phone,true);//TODO,用户名自动生成唯一不重复的算法，目前看起来没什么问题，手机号是唯一的直接导致用户名也是唯一的,true参数保证生产16位用户名。
-		 	$email = $username.'@quickmobile.com.cn';//TODO,这里的目的是为了让邮箱在用户中心注册可以验证通过。
-			$uid = $User->register($username, $password,$email,$phone);
+			//$username = md5($phone);echo $username;die;//TODO,用户名自动生成唯一不重复的算法，目前看起来没什么问题，手机号是唯一的直接导致用户名也是唯一的,true参数保证生产16位用户名。
+		 	$email = $phone.'@quickmobile.com.cn';//TODO,这里的目的是为了让邮箱在用户中心注册可以验证通过。
+			$uid = $User->register($phone, $password,$email,$phone);
 			if(0 < $uid){
 				$this->call_return['msg'] = '注册成功!';
 				$this->call_return['code'] = 1;
 				$this->call_return['data'] = array('uid'=>$uid);
 			}else {
+				$this->call_return['code'] = 0;
 				$this->call_return['msg'] = $this->showRegError($uid);
 			}
 		} else {
+			$this->call_return['code'] = 0;
 			$this->call_return['msg'] = '-注册异常-';
 		}
 		return $this->call_return;
@@ -46,12 +48,12 @@ class UserApi extends BaseApi {
 	 * @param unknown_type $phone
 	 * @param unknown_type $password
 	 */
-	public function login_with_phone_password($phone,$password=''){
+	public function login_with_phone_password($phone,$password){
 		$user = new UserApi;
 		$uid = $user->login($phone, $password,3);//3手机登录 登录到用户中心
 		if(0 < $uid){ //UC登录成功
 			/* 登录用户 */
-			$member = D('Member');
+			$member = D('Member\Member');
 			$user = $member->login($uid); //登录到系统
 			if($user){ //登录用户
 				$this->call_return['code'] = 1;
@@ -71,7 +73,10 @@ class UserApi extends BaseApi {
 		return $this->call_return;
 	}
 	
-	
+	public function get_info_by_uid(){
+		
+	}
+	 
 	
 	
 	

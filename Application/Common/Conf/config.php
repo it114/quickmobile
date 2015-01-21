@@ -22,7 +22,7 @@ return array(
     'DATA_AUTH_KEY' => '8F{Rh;mz0,bCo^iP/y?fHu24Bce1Y]G(E&=DOL$J', //默认数据加密KEY
 
     /* 调试配置 */
-    'SHOW_PAGE_TRACE' => true,
+    'SHOW_PAGE_TRACE' => false,
 
     /* 用户相关设置 */
     'USER_MAX_CACHE'     => 1000, //最大缓存用户数
@@ -38,13 +38,13 @@ return array(
     'DEFAULT_FILTER' => '', //全局过滤函数
 
     /* 数据库配置 */
-    'DB_TYPE'   => 'mysqli', // 数据库类型
-    'DB_HOST'   => '127.0.0.1', // 服务器地址
-    'DB_NAME'   => 'onethink', // 数据库名
-    'DB_USER'   => 'root', // 用户名
-    'DB_PWD'    => '',  // 密码
-    'DB_PORT'   => '3306', // 端口
-    'DB_PREFIX' => 'zxy_', // 数据库表前缀
+	'DB_TYPE'   => 'mysqli', // 数据库类型
+	'DB_HOST'   => '127.0.0.1', // 服务器地址
+	'DB_NAME'   => 'funtu', // 数据库名
+	'DB_USER'   => 'root', // 用户名
+	'DB_PWD'    => 'ldld19900215',  // 密码
+	'DB_PORT'   => '3306', // 端口
+	'DB_PREFIX' => 'funtu_', // 数据库表前缀
 
     /* 文档模型配置 (文档模型核心配置，请勿更改) */
     'DOCUMENT_MODEL_TYPE' => array(2 => '主题', 1 => '目录', 3 => '段落'),
