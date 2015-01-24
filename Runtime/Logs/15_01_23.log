@@ -1,0 +1,158 @@
+[ 2015-01-23T00:00:08+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 982 行.
+NOTIC: [8] Undefined variable: Array D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 982 行.
+
+[ 2015-01-23T00:00:51+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2015-01-23T00:03:13+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2015-01-23T00:03:31+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+NOTIC: [8] Undefined index: main_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 33 行.
+NOTIC: [8] Undefined index: main_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.000000s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( `md5` = '08d21ca1aa4bd1c0c94f43e459b19e83' ) LIMIT 1   [ RunTime:0.015600s ]
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (55,'<main_pic></main_pic><tuya_pic></tuya_pic>','origin','','127.0.0.1','08d21ca1aa4bd1c0c94f43e459b19e83','(43,31)=(北京市朝阳区)',1421942611,1) [ RunTime:0.078000s ]
+
+[ 2015-01-23T00:04:13+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.010000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2015-01-23T00:04:47+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] Illegal offset type D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+
+[ 2015-01-23T00:05:58+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+
+[ 2015-01-23T00:06:38+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+NOTIC: [8] Undefined index: main_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 33 行.
+NOTIC: [8] Undefined index: main_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 33 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.000000s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( `md5` = '08d21ca1aa4bd1c0c94f43e459b19e83' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (55,'<main_pic></main_pic><tuya_pic></tuya_pic>','origin','','127.0.0.1','08d21ca1aa4bd1c0c94f43e459b19e83','(43,31)=(北京市朝阳区)',1421942798,1) [ RunTime:0.062400s ]
+
+[ 2015-01-23T00:07:07+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Use of undefined constant key - assumed 'key' D:\wamp\www\quickmobile\Application\Common\Common\function.php 第 994 行.
+
+[ 2015-01-23T00:08:03+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.051003s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( `md5` = 'fcfe4869cfecc9933aadbd994c33f536' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (55,'<main_pic>Feed/2015-01-23/54c12063af412.jpg</main_pic><tuya_pic></tuya_pic>','origin','','127.0.0.1','fcfe4869cfecc9933aadbd994c33f536','(43,31)=(北京市朝阳区)',1421942883,1) [ RunTime:0.041003s ]
+
+[ 2015-01-23T00:08:56+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+NOTIC: [8] Undefined index: tuya_pic D:\wamp\www\quickmobile\Application\Mobile\Controller\FeedController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.011000s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( `md5` = '5483be37ae15fc9fac7d8b20080254a7' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (55,'<main_pic>Feed/2015-01-23/54c1209874e4f.jpg</main_pic><tuya_pic></tuya_pic>','origin','','127.0.0.1','5483be37ae15fc9fac7d8b20080254a7','(43,31)=(北京市朝阳区)',1421942936,1) [ RunTime:0.051002s ]
+
+[ 2015-01-23T00:10:21+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/send&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Upload.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.007000s ]
+SQL: SELECT `md5` FROM `funtu_feed` WHERE ( `md5` = '7ee507251b4f402535ccca119c7040b7' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `funtu_feed` (`uid`,`content`,`type`,`from`,`ip`,`md5`,`location`,`create_time`,`status`) VALUES (55,'<main_pic>Feed/2015-01-23/54c120ed4677d.jpg</main_pic><tuya_pic>Feed/2015-01-23/54c120ed47eed.jpg</tuya_pic>','origin','','127.0.0.1','7ee507251b4f402535ccca119c7040b7','(43,31)=(北京市朝阳区)',1421943021,1) [ RunTime:0.074004s ]
+

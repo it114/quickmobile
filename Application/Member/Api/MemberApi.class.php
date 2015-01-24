@@ -53,7 +53,7 @@ class MemberApi extends \Common\Api\BaseApi {
 		$uid = $user->login($phone, $password,3);//3手机登录 登录到用户中心
 		if(0 < $uid){ //UC登录成功
 			/* 登录用户 */
-			$member = D('Member\Member');
+			$member = D('Member/Member');
 			$user = $member->login($uid); //登录到系统
 			if($user){ //登录用户
 				$this->call_return['code'] = 1;

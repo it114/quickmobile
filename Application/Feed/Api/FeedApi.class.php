@@ -6,14 +6,15 @@ class FeedApi extends \Common\Api\BaseApi {
 	
 	private $feed_model = null;
 	private $comment_model =  null;
-	
+	private $default_cache_time = 864000;
     public function __construct(){
     	$this->feed_model = D('Feed/Feed');
     	$this->comment_model = D('Feed/FeedComment');
+     
 	}
 	
 	public function list_feed($page = 1, $count = 30,$uid= -1, $map = array(), $keywords = '')
-	{
+	{	
 		$uid = intval($uid);
 		if($uid!==-1 & 0< $uid){
 			$map['uid'] = $uid;
@@ -24,31 +25,27 @@ class FeedApi extends \Common\Api\BaseApi {
 		}
 		
 		$list = $this->feed_model->field('id','uid','content','create_time','comment_count','status','location','from')->where($map)
-		->order('comment_count desc,create_timedesc')->page($page, $count)->select();
+		->order('comment_count desc,create_time desc')->page($page, $count)->select();
 		if($list) {
 			//查询数据库获取每一条微博的作者的详细信息，当当前UID为微博的UID的是，不查询，因为这个时候用户知道自己的信息是多少，如果是处于登录状态的化。
 			$member_model  = D('Member/Member');
-			foreach ($list as &$v) {
-				if($uid != $v['uid']) {
-					$tmp_user_info = S('feed_info_id_'.$v['id']);
+			foreach ($list as &$v) {  
+					$tmp_user_info =   S('user_info_'.$v['uid']); 
 					if(!$tmp_user_info) {
 						$tmp_user_info = $member_model->info($v['uid']);
 						//缓存每一条微博信息,只要涉及这条微博的更新，都会重新查询，TODO,缓存优化，以后换成redis？
 						$v['user_info'] = $tmp_user_info;
-						S('feed_info_id_'.$v['id'],$v);
+						S('user_info_'.$v['id'],$tmp_user_info,$this->default_cache_time);
 					} else {
 						$v['user_info'] = $tmp_user_info;
 					} 
-				} else {
-					$v['user_info'] = array();
-				}
 			}
 			$this->call_return['code'] = 1;
 			$this->call_return['msg'] ='查询成功';
 			$this->call_return['data'] = $list;
 		} else {
 			$this->call_return['code'] = 0;
-			$this->call_return['msg'] ='查询失败,'.$this->getError();
+			$this->call_return['msg'] ='查询失败,'.$this->feed_model->getError();
 		}
 		return $this->call_return;
 	}
@@ -82,9 +79,9 @@ class FeedApi extends \Common\Api\BaseApi {
 		return $this->call_return;
 	}
 	
-	public function send_comment($uid,$feed_id, $content, $jin_du,$wei_du,$sheng,$shi,$xian,$other_loc_info,$comment_id = 0)
+	public function send_comment($uid,$feed_id, $content, $jin_du,$wei_du,$loc_info,$comment_id = 0)
 	{
-		$location = get_location($jin_du, $wei_du, $sheng, $shi, $xian, $other_loc_info);
+		$location = get_location($jin_du, $wei_du, $loc_info);
 		//TODO,发布是否频繁的检测 add_comment($uid, $feed_id, $content, $location,$comment_id = 0)
 		$post_comment_id = $this->comment_model->add_comment($uid,$feed_id,$content,$location,$comment_id);
 		if($post_comment_id){
@@ -105,11 +102,23 @@ class FeedApi extends \Common\Api\BaseApi {
 	
 	public function list_comment($feed_id, $page = 1, $count = 10)
 	{
-		$list = $this->comment_model->where('feed_id='.$feed_id)->order('create_time desc')->page($page,$count)->select();
+		$list = $this->comment_model->where('feed_id='.$feed_id)->order('create_time desc')->page($page,$count)->select(); 
+	  	
 		if($list) {
+			$member_model  = D('Member/Member');
+			foreach ($list as &$v){  
+				$tmp_user_info =   S('user_info_'.$v['uid']);  
+			    if(!$tmp_user_info) {
+			    	$tmp_user_info = $member_model->info($v['uid']);
+			    	$v['user_info'] = $tmp_user_info;
+			    	S('user_info_'.$v['uid'],$tmp_user_info,$this->default_cache_time);
+			    } else {
+			    	$v['user_info'] = $tmp_user_info;
+			    }
+			}
 			$this->call_return['code'] = 1;
 			$this->call_return['msg'] = '获取成功!';
-			$this->call_return['data'] = array('comment_list'=>$list);
+			$this->call_return['data'] =  $list;
 		} else {
 			$this->call_return['code'] = 0;
 			$this->call_return['msg'] = '获取失败!';

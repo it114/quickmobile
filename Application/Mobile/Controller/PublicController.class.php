@@ -27,7 +27,7 @@ class PublicController extends  MobileController {
 		$password = I('post.password');
 		$user_api = new MemberApi();
 		$result = $user_api->register_with_phone_password($usertel,$password);
-		if($result){
+		if($result) {
 			if($result['code']==1){
 				$this->api_success('注册成功',$result['data']);
 			} else {
@@ -36,6 +36,5 @@ class PublicController extends  MobileController {
 		} else { 
 			$this->api_error('注册失败');
 		}
-		
 	}
 }

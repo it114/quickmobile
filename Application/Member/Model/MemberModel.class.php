@@ -58,7 +58,7 @@ class MemberModel extends Model {
         return $user;//这里返回用户信息给调用者
     }
     
-    public function info($uid = -1,$field = array('id','nickname','uid','birthday','sex','avatar','qq','score')){
+    public function info($uid = -1,$field = array('uid','nickname','uid','birthday','sex','avatar','qq','score')){
     	$uid = intval($uid);
     	if($uid!==-1 && 0< $uid) {
     		$user = $this->field($field)->find($uid);

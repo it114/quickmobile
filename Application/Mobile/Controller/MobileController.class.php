@@ -12,7 +12,7 @@ class MobileController extends  Controller {
 		$this->verify_request();
 	}
 	
-	private function verify_request(){
+	private function verify_request(){ 
 		$os = I('get.os','');
 		$os_version = I('get.os_version','');
 		$api_version = I('get.api_version','');

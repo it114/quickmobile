@@ -968,6 +968,16 @@ function get_location($jin_du,$wei_du,$loc_info){
  * @param unknown_type $dir_prefix,文件夹前缀，相对于Public文件夹而言
  * @param unknown_type $allow_exts,允许的文件扩展名
  * @return multitype:number string |multitype:number NULL |multitype:number string NULL
+ * 
+ * 'name' => string 'IMG0075A.jpg' (length=12)
+      'type' => string 'image/jpeg' (length=10)
+      'size' => int 20949
+      'key' => int 0
+      'ext' => string 'jpg' (length=3)
+      'md5' => string '65bc4333bd64909ec5759db131fd1585' (length=32)
+      'sha1' => string '3e94ea7968fb69f5b661e85eaffa5406f1d7cf24' (length=40)
+      'savename' => string '54c11eb3c2cbf.jpg' (length=17)
+      'savepath' => string 'Feed/2015-01-23/' (length=16)
  */
 function upload_file($files_name,$dir_prefix='Uploads/',$allow_exts= array('jpg', 'gif', 'png', 'jpeg')) {
 	$ret = array('code'=>0,'msg'=>'上传图片缺少');;
@@ -976,23 +986,17 @@ function upload_file($files_name,$dir_prefix='Uploads/',$allow_exts= array('jpg'
 			return $ret;
 		}
 	}
-	import('ORG.Net.UploadFile');
-	$upload = new UploadFile();// 实例化上传类
-	$upload->autoSub = true;
-	$upload->subType   =  'date';
-	$upload->maxSize  = 3145728 ;// 设置附件上传大小
-	$upload->allowExts  =  $allow_exts;// 设置附件上传类型
-	$upload->savePath =  './Public/'.$dir_prefix;// 设置附件上传目录
-	$ret = array('code');
+	$upload = new \Think\Upload(C('FEED_PICTURE_UPLOAD'));
+	$ret = array('code'=>0);
 	foreach ($_FILES as $key=>$file){
-		$info =  $upload->uploadOne($file);
+		$info =  $upload->uploadOne($file); 
 		if($info){// 保存附件信息
-			$ret['data'][$file] = $info;
+			$ret['data'][$key] = $info;
 			$ret['code'] = 1;
 			$ret['msg'] = 'suc';
 		}else{ // 上传错误
 			$ret['code'] = 0;
-			$ret['msg'] = $upload->getErrorMsg();
+			$ret['msg'] = $upload->getError();
 			break;
 		}
 	}

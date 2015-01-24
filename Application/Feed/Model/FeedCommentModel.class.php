@@ -23,6 +23,15 @@ class FeedCommentModel extends Model
         array('status', '1', self::MODEL_INSERT),
     );
 
+    /**
+     * 目前comment_id没有用到，不能评论别人
+     * @param unknown_type $uid
+     * @param unknown_type $feed_id
+     * @param unknown_type $content
+     * @param unknown_type $location
+     * @param unknown_type $comment_id
+     * @return number|boolean|Ambigous <\Think\mixed, boolean, unknown>
+     */
     public function add_comment($uid, $feed_id, $content, $location,$comment_id = 0)
     {
     	$comment_be_write_md5 = md5($uid.$feed_id.$content);
