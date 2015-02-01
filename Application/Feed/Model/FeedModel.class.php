@@ -26,8 +26,11 @@ class FeedModel extends Model
 	 * 
 	 * -2代表微博已经存在了，重复发表
 	 */
-	public function add_feed($uid, $content='',$location='(0|0)=(""|""|""|"")',$type='feed',$from='mobile|android')
+	public function add_feed($uid, $content=array(),$location='(0|0)=(""|""|""|"")',$type='feed',$from='mobile|android')
 	{	
+		$anonymous = $content['anonymous'] ?  $content['anonymous'] :0 ;
+		$from = $content['from']?$content['from']:'';
+		$content = json_encode($content);
 		$md5_be_write = md5($content.$uid);
 		$exist_feed_md5 = $this->field('md5')->where(array('md5'=>$md5_be_write))->find();
 		if($exist_feed_md5) {
@@ -36,7 +39,7 @@ class FeedModel extends Model
 		}
 		$ip = get_client_ip();
 		//写入数据库
-		$data = array('uid'=>$uid,'content'=>$content,'type'=>$type,'from'=>$from,'ip'=>$ip,'md5'=>$md5_be_write,'location'=>$location);
+		$data = array('uid'=>$uid,'anonymous'=>$anonymous,'content'=>$content,'type'=>$type,'from'=>$from,'ip'=>$ip,'md5'=>$md5_be_write,'from'=>$from, 'location'=>$location);
 		$data = $this->create($data);
 		if(!$data) return false;
 		$feed_id = $this->add($data);

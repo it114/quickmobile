@@ -30,6 +30,7 @@ class FeedApi extends \Common\Api\BaseApi {
 			//查询数据库获取每一条微博的作者的详细信息，当当前UID为微博的UID的是，不查询，因为这个时候用户知道自己的信息是多少，如果是处于登录状态的化。
 			$member_model  = D('Member/Member');
 			foreach ($list as &$v) {  
+					$v['pic_host'] =C('FEED_PICTURE_HOST');
 					$tmp_user_info =   S('user_info_'.$v['uid']); 
 					if(!$tmp_user_info) {
 						$tmp_user_info = $member_model->info($v['uid']);
@@ -106,10 +107,11 @@ class FeedApi extends \Common\Api\BaseApi {
 	  	
 		if($list) {
 			$member_model  = D('Member/Member');
-			foreach ($list as &$v){  
+			foreach ($list as &$v){   
+				$v['pic_host'] =C('FEED_PICTURE_HOST');  
 				$tmp_user_info =   S('user_info_'.$v['uid']);  
 			    if(!$tmp_user_info) {
-			    	$tmp_user_info = $member_model->info($v['uid']);
+			    	$tmp_user_info = $member_model->info($v['uid']); 
 			    	$v['user_info'] = $tmp_user_info;
 			    	S('user_info_'.$v['uid'],$tmp_user_info,$this->default_cache_time);
 			    } else {

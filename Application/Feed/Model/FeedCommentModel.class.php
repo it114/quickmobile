@@ -34,6 +34,7 @@ class FeedCommentModel extends Model
      */
     public function add_comment($uid, $feed_id, $content, $location,$comment_id = 0)
     {
+    	$content  = json_encode($content);
     	$comment_be_write_md5 = md5($uid.$feed_id.$content);
     	$exists_comment_md5 = $this->field('md5')->where('md5='.$comment_be_write_md5)->find();
     	if($exists_comment_md5) {return -2;}

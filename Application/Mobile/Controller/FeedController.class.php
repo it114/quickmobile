@@ -15,7 +15,7 @@ class FeedController  extends  MobileController{
 		$loc_info =		I('post.loc_info');
 		$type 	  =		'origin';//暂时不支持转发。origin：原始微博；repost：转发；
 		$from	  =		I('post.from','');
-		
+		$anonymous 	=	I('post.anonymous'); //0,实名，1匿名
 		if(!$uid||!$jin_du||!$wei_du||!$loc_info||!$from) {
 			$this->api_error('提交参数错误');
 		}
@@ -27,11 +27,24 @@ class FeedController  extends  MobileController{
 		if($upload_data&&$upload_data['code'] == 0){
 			$this->api_error('上传图片失败,'.$upload_data['msg']);
 		}  
+		//插入主图信息
+// 		$main_pic_info = array(
+// 				'uid'=>$uid,
+// 				'pic_path'=>$upload_data['data']['main_pic']['savepath'].$upload_data['data']['main_pic']['savename'],
+// 				'create_time'=>time(),
+// 				);
+		//$add_pic_info = D('pics')->add($main_pic_info);
 		//savepath	上传文件的保存路径
 		//name	上传文件的原始名称
 		//savename	上传文件的保存名称
-		$content='<main_pic>'.$upload_data['data']['main_pic']['savepath'].$upload_data['data']['main_pic']['savename'].'</main_pic>'.
-		'<tuya_pic>'.$upload_data['data']['tuya_pic']['savepath'].$upload_data['data']['tuya_pic']['savename'].'</tuya_pic>';
+// 		$content='<main_pic>'.$upload_data['data']['main_pic']['savepath'].$upload_data['data']['main_pic']['savename'].'</main_pic>'.
+// 		'<tuya_pic>'.$upload_data['data']['tuya_pic']['savepath'].$upload_data['data']['tuya_pic']['savename'].'</tuya_pic>';
+		$content = array(
+					'main_pic'=>$upload_data['data']['main_pic']['savepath'].$upload_data['data']['main_pic']['savename'],
+					'tuya_pic'=>$upload_data['data']['tuya_pic']['savepath'].$upload_data['data']['tuya_pic']['savename'],
+					'anonymous'=>$anonymous,
+					'from'=>$from,
+				);
 		//
 		$feed_api  = new FeedApi();
 		$res = $feed_api->send_feed($uid, $content, $jin_du, $wei_du, $loc_info);
@@ -70,8 +83,6 @@ class FeedController  extends  MobileController{
     	} else  {
     		$this->api_error('查询失败,'.$ret['msg']);
     	}
-    	
-    	
     }
     
     /**
@@ -85,8 +96,8 @@ class FeedController  extends  MobileController{
     	$from	  =		I('post.from','');
     	$feed_id  =		I('post.feed_id',0);
     	$uid      =		I('post.uid',0);
-    	$main_pic_id	=   I('post.main_pic_id',0);
-    	if(!$uid||!$jin_du||!$wei_du||!$loc_info||!$from||!$feed_id||!$main_pic_id) {
+    	$main_pic_path	=   I('post.main_pic_path','');
+    	if(!$uid||!$jin_du||!$wei_du||!$loc_info||!$from||!$feed_id||!$main_pic_path) {
     		$this->api_error('提交参数错误');
     	}
     	//理图片上传
@@ -101,8 +112,12 @@ class FeedController  extends  MobileController{
     	//name	上传文件的原始名称
     	//savename	上传文件的保存名称
     	//TODO，完成main_pic的保存逻辑
-    	$content='<main_pic>'.'TODO...'.'</main_pic>'.
-    			'<tuya_pic>'.$upload_data['data']['tuya_pic']['savepath'].$upload_data['data']['tuya_pic']['savename'].'</tuya_pic>';
+//     	$content='<main_pic>'.'TODO...'.'</main_pic>'.
+//     			'<tuya_pic>'.$upload_data['data']['tuya_pic']['savepath'].$upload_data['data']['tuya_pic']['savename'].'</tuya_pic>';
+    	$content = array(
+	    			'main_pic'=>$main_pic_path,
+	    			'tuya_pic'=>$upload_data['data']['tuya_pic']['savepath'].$upload_data['data']['tuya_pic']['savename']
+    			);
     	//
     	$feed_api  = new FeedApi();
     	$res = $feed_api->send_comment($uid,$feed_id, $content, $jin_du, $wei_du, $loc_info);
