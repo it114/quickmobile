@@ -24,22 +24,40 @@ class FeedApi extends \Common\Api\BaseApi {
 			$map['content'] = array('like', "%{$keywords}%");
 		}
 		
-		$list = $this->feed_model->field('id','uid','content','create_time','comment_count','status','location','from')->where($map)
+		$list = $this->feed_model->field()->where($map)
 		->order('comment_count desc,create_time desc')->page($page, $count)->select();
-		if($list) {
+		if($list) { 
 			//查询数据库获取每一条微博的作者的详细信息，当当前UID为微博的UID的是，不查询，因为这个时候用户知道自己的信息是多少，如果是处于登录状态的化。
 			$member_model  = D('Member/Member');
 			foreach ($list as &$v) {  
-					$v['pic_host'] =C('FEED_PICTURE_HOST');
+					$v['pic_host'] = C('FEED_PICTURE_HOST');
 					$tmp_user_info =   S('user_info_'.$v['uid']); 
 					if(!$tmp_user_info) {
 						$tmp_user_info = $member_model->info($v['uid']);
 						//缓存每一条微博信息,只要涉及这条微博的更新，都会重新查询，TODO,缓存优化，以后换成redis？
-						$v['user_info'] = $tmp_user_info;
-						S('user_info_'.$v['id'],$tmp_user_info,$this->default_cache_time);
+						if($tmp_user_info) {
+							$v['user_info'] = $tmp_user_info;
+							S('user_info_'.$v['uid'],$tmp_user_info,$this->default_cache_time);
+						} else {
+							$v['user_info'] = array();
+						}
 					} else {
 						$v['user_info'] = $tmp_user_info;
-					} 
+					}  
+
+					//涂鸦列表信息，暂时读取最新30条，缓存时间5分钟
+					$comment_list = S('comment_list'.$v['id']); 
+					if(!$comment_list){
+						$comment_list = $this->list_comment($v['id'],1,30);
+						if($comment_list&&$comment_list['code']==1){
+							S('comment_list',$comment_list,300);
+							$v['comment_list'] = $comment_list;
+						} else {
+							$v['comment_list'] = array();
+						}
+					} else {
+						$v['comment_list'] = $comment_list;
+					}
 			}
 			$this->call_return['code'] = 1;
 			$this->call_return['msg'] ='查询成功';

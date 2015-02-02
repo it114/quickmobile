@@ -53,14 +53,14 @@ class FeedCommentModel extends Model
     }
 	
     public function delete_comment($comment_id)
-    {
+    {	
         //获取微博编号
         $comment = D('Feed/FeedComment')->find($comment_id);
         $feed_id = $comment['feed_id'];
-
+		
         //将评论标记为已经删除
         D('Feed/FeedComment')->where(array('id' => $comment_id))->setField('status', -1);
-
+		
         //减少微博的评论数量
         D('Feed/Feed')->where(array('id' => $feed_id))->setDec('comment_count');
         S('feed_' . $feed_id,null);

@@ -1,0 +1,149 @@
+[ 2015-02-02T23:30:17+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+SQL: SHOW COLUMNS FROM `funtu_hooks` [ RunTime:0.037002s ]
+SQL: SELECT `name`,`addons` FROM `funtu_hooks`  [ RunTime:0.021002s ]
+SQL: SHOW COLUMNS FROM `funtu_addons` [ RunTime:0.046002s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('ReturnTop') )  [ RunTime:0.030002s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment') )  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment','SocialComment') )  [ RunTime:0.072005s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Attachment') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Editor') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('EditorForAdmin') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('SiteStat','SystemInfo','DevTeam') )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `funtu_addons` WHERE ( `status` = 1 ) AND ( `name` IN ('Editor') )  [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHook [ RunTime:0.305017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.307017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.010000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.008000s ]
+SQL: SELECT `uid`,`nickname`,`uid`,`birthday`,`sex`,`avatar`,`qq`,`score` FROM `funtu_member` WHERE ( `uid` = 2 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2015-02-02T23:30:23+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.004001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.015001s ]
+SQL: SELECT `uid`,`content`,`create_time`,`comment_count`,`status`,`is_top`,`type`,`anonymous`,`data`,`repost_count`,`location`,`ip`,`md5`,`from` FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php 第 49 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php 第 49 行.
+
+[ 2015-02-02T23:30:33+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.025001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.008001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.014001s ]
+
+[ 2015-02-02T23:30:35+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.015001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.009000s ]
+
+[ 2015-02-02T23:30:35+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.010001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.032002s ]
+
+[ 2015-02-02T23:30:35+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.009000s ]
+
+[ 2015-02-02T23:30:36+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.010001s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.009000s ]
+
+[ 2015-02-02T23:31:01+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.005000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.008000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.012001s ]
+SQL: SELECT * FROM `funtu_feed_comment` WHERE ( feed_id=5 ) ORDER BY create_time desc LIMIT 0,30   [ RunTime:0.061004s ]
+
+[ 2015-02-02T23:31:46+08:00 ] 127.0.0.1 /quickmobile/api.php?s=mobile/feed/listfeeds&os_version=4.4&os=Android&api_version=1&t=111111&uuid=99&token=d7de46680b48762bccc1a305b0d12f75&tel=15133628736&password=1234560&page=1&anonymous=1
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.009000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `funtu_feed_comment` [ RunTime:0.012000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\quickmobile\Application\Feed\Api\FeedApi.class.php on line 27 and defined D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\quickmobile\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `funtu_feed` WHERE ( `anonymous` = 1 ) ORDER BY comment_count desc,create_time desc LIMIT 0,20   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `funtu_member` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `funtu_feed_comment` WHERE ( feed_id=6 ) ORDER BY create_time desc LIMIT 0,30   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `funtu_feed_comment` WHERE ( feed_id=5 ) ORDER BY create_time desc LIMIT 0,30   [ RunTime:0.001000s ]
+

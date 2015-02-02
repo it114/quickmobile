@@ -61,21 +61,24 @@ class FeedController  extends  MobileController{
 		}
 	}
 	
-	// list_feed($page = 1, $count = 30,$uid= -1, $map = array(), $keywords = '')
-    public function listfeeds(){
+	 
+	/**
+	 * anonymous 区分是匿名还是实名
+	 * uid如果是uid不为-1的话，就是取用户自己的发布liebiao
+	 */
+    public function listfeeds() {
     	$page 		= I('get.page',0);
     	$count 		= I('get.count',20);
     	$uid		= I('get.uid',-1);
     	$keywords   = I('get.keywords','');
-    	
+    	$anonymous 	=	I('get.anonymous')? I('get.anonymous'):0; //0,实名，1匿名
     	if(!$page){
     		$this->api_error('提交参数错误');
     	}
-    	
     	$feed_api = new FeedApi();
-    	$ret = $feed_api->list_feed($page,$count,$uid,array(),$keywords);
-    	if($ret['code'] != 0){
-    		if($ret['code'] == 1){
+    	$ret = $feed_api->list_feed($page,$count,$uid,array('anonymous'=>$anonymous),$keywords);
+    	if($ret['code'] != 0) {
+    		if($ret['code'] == 1) {
     			$this->api_success('查询成功',$ret['data']);
     		} else {
     			$this->api_error('查询失败');
@@ -89,8 +92,8 @@ class FeedController  extends  MobileController{
      * 发表回复涂鸦内容
      */
     public function sendcomment(){
-    	$jin_du  = 		I('post.jin_du',0);
-    	$wei_du  = 		I('post.wei_du',0);
+    	$jin_du   = 		I('post.jin_du',0);
+    	$wei_du   = 		I('post.wei_du',0);
     	$loc_info =		I('post.loc_info','');
     	$type 	  =		'origin';//暂时不支持转发。origin：原始微博；repost：转发；
     	$from	  =		I('post.from','');
@@ -105,7 +108,7 @@ class FeedController  extends  MobileController{
     	//<main_pic>Feed/2015-01-23/54c120ed4677d.jpg</main_pic><tuya_pic>Feed/2015-01-23/54c120ed47eed.jpg</tuya_pic>
     	//读取上传的图片
     	$upload_data = upload_file(array('tuya_pic'),'Uploads/Tuya/');
-    	if($upload_data&&$upload_data['code'] == 0){
+    	if($upload_data&&$upload_data['code'] == 0) {
     		$this->api_error('上传图片失败,'.$upload_data['msg']);
     	}
     	//savepath	上传文件的保存路径
@@ -121,7 +124,7 @@ class FeedController  extends  MobileController{
     	//
     	$feed_api  = new FeedApi();
     	$res = $feed_api->send_comment($uid,$feed_id, $content, $jin_du, $wei_du, $loc_info);
-    	if($res){
+    	if($res) {
     		if($res['code'] == 1){
     			$this->api_success('发布成功!',array('comment_id'=>$res['data']['comment_id']));
     		} else {
